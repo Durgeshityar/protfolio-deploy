@@ -34,7 +34,7 @@ export default function Page() {
       </div>
       <hr className="m-4"></hr>
       <div className="md:flex md:justify-between md:items-center">
-        <div className="pt-8  min-w-fit pr-10 flex flex-col items-center">
+        <div className="pt-8 hidden min-w-fit pr-10 md:flex flex-col items-center">
           <Fog>
             <Image
               src={'/info.jpeg'}
@@ -87,7 +87,7 @@ export default function Page() {
           </p>
           <p>Bachelor of Technology in Electrical Engineering</p>
         </div>
-        <div className="pt-8  min-w-fit pr-10 flex flex-col items-center lg:pr-56 md:pl-5">
+        <div className="  pt-8  min-w-fit pr-10 flex flex-col items-center lg:pr-56 md:pl-5">
           <Fog>
             <Image
               src={'/podium.jpeg'}
@@ -141,7 +141,7 @@ export default function Page() {
           <p className="text-2xl font-bold text-slate-500">Anime</p>
           <p className="text-2xl font-bold text-slate-400">Calisthenics</p>
         </div>
-        <div className="min-w-fit lg:pr-52">
+        <div className=" hidden md:block min-w-fit lg:pr-52">
           <ImageConatiner2 />
         </div>
       </div>
