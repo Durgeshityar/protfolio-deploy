@@ -81,7 +81,8 @@ const CARDS = [
     designation: 'Focuses on outcome',
     content: (
       <p>
-        Helping digital founders create <Highlight>unique</Highlight>, empathic
+        I am helping digital founders create <Highlight>unique</Highlight>,
+        empathic
         <Highlight>product experiences</Highlight>
       </p>
     ),
@@ -104,7 +105,7 @@ const CARDS = [
     designation: 'Architecture',
     content: (
       <p>
-        creating scalable and responsive <Highlight> SaaS </Highlight>
+        I am creating scalable and responsive <Highlight> SaaS </Highlight>
         applications using <Highlight> serverless </Highlight> architecture on
         AWS and an event-driven approach.
       </p>
@@ -116,8 +117,7 @@ const CARDS = [
     designation: 'Senior shitposter',
     content: (
       <p>
-        checkout people ❌ <br />
-        git checkout ✅
+        I checkout people ❌ <br />I git checkout ✅
       </p>
     ),
   },
