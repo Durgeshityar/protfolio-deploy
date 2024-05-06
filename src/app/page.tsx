@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className=" ml-3  lg:ml-80 mt-28 lg:mt-10 overflow-hidden mr-3 flex flex-col items-center w-full">
       <p className="text-2xl text-slate-400">
-        🤘 Yo, I'm Durgesh Chandrakar and I am..
+        🤘 Yo, I'm Durgesh Chandrakar and ..
       </p>
       <div className="h-[40rem] flex items-center justify-center w-full">
         <CardStack items={CARDS} />
@@ -28,10 +28,10 @@ export default function Home() {
         <HoverEffect items={project2} />
       </div>
       <p className="text-md text-slate-400 mx-5 font-sans">
-        PS: these are not my work but i can help
+        PS: these are not my work but i can help to make
       </p>
       <p className="text-2xl mx-5 font-semibold">
-        Your product can look something like this too..
+        Your product look something like this too..
       </p>
       <div>
         <HeroParallax products={HeroProducts} />;

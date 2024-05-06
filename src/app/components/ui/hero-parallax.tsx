@@ -106,10 +106,10 @@ export const Header = () => {
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
         The Ultimate <br /> 10x developer
       </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        I build beautiful products with the latest technologies and frameworks.
-        I'm a passionate developer and designer that love to build amazing
-        products.
+      <p className=" flex justify-center items-center text-center  md:text-xl mt-8 dark:text-neutral-200 text-sm ">
+        I build beautiful products with the latest <br /> technologies and
+        frameworks. I'm a passionate <br /> developer and designer that love to
+        build <br /> amazing products.
       </p>
     </div>
   )
