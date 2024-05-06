@@ -46,35 +46,28 @@ export default function Page() {
           </Fog>
         </div>
         <div className="flex flex-col gap-4 text-sm  md:font-thin ">
-          <p className="font-medium text-slate-500"> INFO</p>
+          <p className="font-medium text-slate-500"> Introduction</p>
           <p>
-            I'm full stack developer living in Raipur,Chhattisgarh, India. My
-            initial foray into the world of engineering, specifically with a
-            BTech degree, equipped me with a strong foundation in
-            problem-solving and a deep appreciation for the intricacies of
-            building things. However, as I delved deeper, the potential of
-            technology to create impactful experiences transcended the physical
-            realm.
-          </p>
-
-          <p>
-            Creating intuitive and user-centric experiences that simplify lives
-            and push boundaries is what truly excites me. I believe my
-            problem-solving skills and logical thinking, which, combined with my
-            tech enthusiasm, offers a unique perspective for tackling the
-            challenges of the digital world.
-          </p>
-          <p className="font-bold">
-            "Technology is the application of knowledge to control the natural
-            world. It’s the greatest driver of both human prosperity and our
-            capacity for self-annihilation" - Naval Ravikant
+            I'm a full stack developer living in Raipur, Chhattisgarh, India. I
+            started my journey with a BTech electrical. Along the way, I've been
+            curious about how people interact with technology and how we can
+            make it even better. There's so much to learn about how humans and
+            machines connect, and I'm excited to dive into it. I shifted my
+            focus from traditional engineering to designing for digital spaces
+            because I wanted to work on bigger projects that move quickly. Even
+            though technology and engineering are always changing, the core of
+            design remains the same—it's all about making things that improve
+            people's lives and look good doing it. Instead of walking through
+            physical spaces, now people are scrolling through digital ones. My
+            background in engineering gives me a unique perspective on designing
+            technology that feel friendly and easy to use..
           </p>
         </div>
       </div>
       <hr className="m-4" />
       <div className="md:flex md:justify-between md:items-center">
         <div className="flex flex-col gap-1 text-sm font-thin">
-          <p className="font-medium  text-slate-500"> EDUCATION</p>
+          <p className="font-medium  text-slate-500"> Education</p>
           <p className="text-2xl font-bold">Bharati Vidyapeeth university</p>
           <p className="text-2xl font-bold text-slate-500">
             College of engineering
@@ -95,41 +88,30 @@ export default function Page() {
         </div>
       </div>
       <hr className="m-4" />
-      <p className="font-medium  text-slate-500 text-sm pb-9">CODING MINDSET</p>
-      <div className="md:flex md:justify-between md:items-center md:gap-2">
-        <div className="flex flex-col gap-1 text-sm md:font-thin">
-          <p className="font-semibold"> Great Taste </p>
-          <p>
-            Steve Jobs once said, "Simplicity is the ultimate sophistication." I
-            share that philosophy when it comes to full-stack development. Just
-            like Jobs prioritized clean design, I believe in crafting elegant
-            code that is both powerful and efficient. Every line I write is a
-            building block towards a seamless user experience – a testament to
-            the beauty of well-structured, well-thought-out code.
-          </p>
-        </div>
-        <div className="flex flex-col gap-1 text-sm md:font-thin pt-5 md:pt-0">
-          <p className=" font-semibold"> Future Of Technology </p>
-          <p>
-            While some might see technology as a separate force, it's actually
-            an extension of our understanding of the world. Philosophy helps us
-            build the language of math, which unlocks the secrets of nature
-            (science). And technology is the application of these scientific
-            principles, constantly propelling humanity forward. It's not just a
-            moving force, it's the very engine of our progress.
-          </p>
-          <p className="font-bold">
-            “Technology is not only the thing that moves the human race forward,
-            but it’s the only thing that ever has. Without technology, we’re
-            just monkeys playing in the dirt."
-          </p>
-        </div>
+      <p className="font-medium  text-slate-500 text-sm pb-9">Coding mindset</p>
+
+      <div className="flex flex-col gap-1 text-sm md:font-thin">
+        <p className="font-semibold"> Great taste and future of technology </p>
+        <p>
+          I think being really good at making things look nice, like Ira Glass
+          says, comes from learning about lots of different stuff like art,
+          buildings, clothes, and more. It's not just about making computer
+          stuff pretty; it's about knowing what looks good in the real world
+          too. I like to try new stuff and always aim to be really, really good
+          at what I do. <br />
+          <span className="font-semibold font-sans">
+            "Technology democratizes consumption but consolidates production.
+            The best person in the world for anything, gets to do it for
+            everyone " - Naval Ravikant
+          </span>
+        </p>
       </div>
+
       <hr className="m-4" />
       <div className="md:flex justify-between md:items-center">
         <div className="flex flex-col gap-1 text-sm font-thin">
           <p className="font-medium pb-3  text-slate-500">
-            THINGS I LOVE TO DO
+            Things I love to do
           </p>
           <p className="text-2xl font-bold">Traveling</p>
           <p className="text-2xl font-bold text-slate-500">Anime</p>

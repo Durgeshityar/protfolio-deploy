@@ -2,19 +2,17 @@ import React from 'react'
 import { Tabs } from '@/app/components/ui/tabs'
 import Image from 'next/image'
 const client = (
-  <Image src={'/medium/clientmu.png'} alt="" height={1000} width={1000} />
+  <Image src={'/medium/client.png'} alt="" height={1000} width={1000} />
 )
 const dynamicRender = (
   <Image height={1000} width={1000} src={'/medium/dynamic.png'} alt="" />
 )
 const f2f = (
-  <Image height={1000} width={1000} src={'/medium/followersystem.png'} alt="" />
+  <Image height={1000} width={1000} src={'/medium/follower.png'} alt="" />
 )
-const webhookImg = (
-  <Image height={1000} width={1000} src={'/webhook.png'} alt="" />
-)
+
 const authentication = (
-  <Image height={1000} width={1000} src={'/medium/Mauth.png'} alt="" />
+  <Image height={1000} width={1000} src={'/medium/auth.png'} alt="" />
 )
 
 const tabs = [

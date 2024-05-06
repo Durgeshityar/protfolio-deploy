@@ -13,16 +13,17 @@ const TopBar = () => {
       <div>
         <button
           onClick={() => {
-            router.push('/about')
+            router.push('/')
           }}
           className="font-bold bg-neutral-100 px-4 py-2.5 text-3xl m-7 font-serif rounded-md"
         >
           दुर्गेश
         </button>
       </div>
-      <div className="flex gap-4 text-lg ">
+      <div className="flex gap-4 text-sm ">
         <Link href={'/projects'}>Projects</Link>
         <Link href={'/arsenal/skill'}>Skills</Link>
+        <Link href={'/about'}>About</Link>
 
         <a
           href="https://rb.gy/tjq4l0"
