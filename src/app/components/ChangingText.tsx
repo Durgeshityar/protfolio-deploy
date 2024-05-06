@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect, useRef } from 'react'
 
-const frameworkColors = {
+const frameworkColors: { [key: string]: string } = {
   'Next.js': '#000000', // Black
   'Tailwind CSS': '#0070f3', // Blue
   TypeScript: '#2b74f5', // Blue
