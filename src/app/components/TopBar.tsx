@@ -21,7 +21,6 @@ const TopBar = () => {
         </button>
       </div>
       <div className="flex gap-4 text-lg ">
-        <Link href={'/about'}>About</Link>
         <Link href={'/projects'}>Projects</Link>
         <Link href={'/arsenal/skill'}>Skills</Link>
 
