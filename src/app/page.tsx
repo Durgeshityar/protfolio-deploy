@@ -125,23 +125,23 @@ const CARDS = [
 
 const projects = [
   {
-    title: 'things I create',
-    description: 'website , app design , visual identity, illustrations ,ui',
+    title: 'Things I create',
+    description: `Website, App design, Visual identity, Illustrations, UI`,
   },
   {
-    title: 'for products in',
-    description: 'SaaS, fintech, web3.0, ai, medtech and more',
+    title: 'For products in',
+    description: 'SaaS, Fintech, Web3.0, Ai, Medtech and more',
   },
   {
-    title: 'using tools like',
-    description: 'figma , after effects , photoshop, framer, blender ',
+    title: 'Using tools like',
+    description: 'Figma, After effects, Photoshop, Framer, Blender ',
   },
 ]
 
 const project2 = [
   {
     title: '',
-    description: 'Coporate level practices, big energy and fresh thinking ',
+    description: 'Corporate level practices, big energy and fresh thinking ',
   },
   {
     title: '',

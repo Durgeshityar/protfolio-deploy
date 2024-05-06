@@ -8,7 +8,7 @@ const TopBar = () => {
   return (
     <div
       className=" lg:hidden flex justify-between items-center fixed w-full  
-    px-4 bg-gradient-to-t from-transparent to-white"
+    px-4 bg-gradient-to-t from-transparent to-white z-50"
     >
       <div>
         <button
