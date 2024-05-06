@@ -69,7 +69,7 @@ const CARDS = [
     designation: 'key skills',
     content: (
       <p>
-        Itranslate complex user needs into beautiful and functional web
+        I translate complex user needs into beautiful and functional web
         applications, leveraging my expertise in the MERN stack
         <Highlight>Next.js, React.js, Node.js, MongoDB</Highlight>
       </p>
