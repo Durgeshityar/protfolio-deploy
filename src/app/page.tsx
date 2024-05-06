@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className=" ml-3  lg:ml-80 mt-28 lg:mt-10 overflow-hidden mr-3 flex flex-col items-center w-full">
       <p className="text-2xl text-slate-400">
-        🤘 Yo, I'm Durgesh Chandrakar and ..
+        👋 Hey, I'm Durgesh Chandrakar and ..
       </p>
       <div className="h-[40rem] flex items-center justify-center w-full">
         <CardStack items={CARDS} />
