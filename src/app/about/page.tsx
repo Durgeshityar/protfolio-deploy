@@ -8,7 +8,7 @@ import Footer from '../components/footer'
 
 export default function Page() {
   return (
-    <div className=" ml-10  lg:ml-80 mt-28 lg:mt-10 overflow-hidden mr-10">
+    <div className=" ml-3  lg:ml-80 mt-28 lg:mt-10 overflow-hidden mr-3">
       <p className="text-slate-300 font-sans font-medium text-sm pb-8">
         LET THAT FOG SETTLE...
       </p>

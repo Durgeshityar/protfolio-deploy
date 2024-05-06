@@ -12,7 +12,7 @@ const page = () => {
           <>
             <h1 className="text-4xl font-semibold text-black dark:text-white">
               You know the <br />
-              <span className="text-[6rem] font-bold mt-1 leading-none">
+              <span className="text-7xl font-bold mt-1 leading-none px-1">
                 Business 🚶🏼‍♂️
               </span>
             </h1>
@@ -30,15 +30,15 @@ const page = () => {
           />
         </div>
       </ContainerScroll>
-      <div className="flex w-full text-center justify-center">
+      <div className="flex w-full text-center justify-center px-1">
         <h1 className="text-4xl font-semibold text-black dark:text-white">
           I know the <br />
-          <span className="text-[6rem] font-bold mt-1 leading-none">
+          <span className="text-7xl font-bold mt-1 leading-none">
             Chemistry ⚛
           </span>
         </h1>
       </div>
-      <div className="flex w-full text-center justify-center my-5 py-8">
+      <div className="flex w-full text-center justify-center my-5 py-8 px-1">
         <h1 className="text-4xl font-semibold text-black dark:text-white flex items-center gap-2">
           Preferred Framework
           <span className="text-6xl font-bold mt-1 leading-none">
