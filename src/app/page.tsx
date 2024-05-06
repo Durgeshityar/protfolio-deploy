@@ -43,7 +43,7 @@ export default function Home() {
   )
 }
 
-export const Highlight = ({
+const Highlight = ({
   children,
   className,
 }: {
@@ -123,7 +123,7 @@ const CARDS = [
   },
 ]
 
-export const projects = [
+const projects = [
   {
     title: 'things I create',
     description: 'website , app design , visual identity, illustrations ,ui',
@@ -138,7 +138,7 @@ export const projects = [
   },
 ]
 
-export const project2 = [
+const project2 = [
   {
     title: '',
     description: 'Coporate level practices, big energy and fresh thinking ',
@@ -155,7 +155,7 @@ export const project2 = [
   },
 ]
 
-export const HeroProducts = [
+const HeroProducts = [
   {
     title: '',
     link: '',
