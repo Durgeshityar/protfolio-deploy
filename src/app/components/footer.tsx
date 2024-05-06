@@ -25,13 +25,6 @@ const Footer = () => {
         >
           <li className="cursor-pointer"> Github</li>
         </a>
-        <a
-          href="https://rb.gy/tjq4l0"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <li className="cursor-pointer"> Mail</li>
-        </a>
       </ul>
     </div>
   )

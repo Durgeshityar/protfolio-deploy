@@ -3,7 +3,7 @@ import PaymentCard from '@/app/components/projectCard/PaymentCard'
 import React from 'react'
 const page = () => {
   return (
-    <div className="mt-28 ml-20 mr-6  lg:mt-10 h-full lg:ml-96 flex flex-col justify-between w-screen">
+    <div className="mt-28 ml-3 mr-5  lg:mt-10 h-full lg:ml-96 flex flex-col justify-between w-screen">
       <div className="flex flex-col">
         <p className="text-5xl font-semibold pb-5">Blogging Application</p>
         <p className="text-2xl font-semibold text-slate-400 pb-5">
@@ -39,7 +39,7 @@ const page = () => {
           </p>
         </div>
         <hr className="p-3" />
-        <div className="w-full">
+        <div className="w-full h-screen">
           <MediumCard />
         </div>
       </div>

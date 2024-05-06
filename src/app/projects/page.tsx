@@ -1,6 +1,7 @@
 import React from 'react'
 import { BentoGrid, BentoGridItem } from '../components/ui/bento-grid'
 import Image from 'next/image'
+import Footer from '../components/footer'
 
 const Page = () => {
   return (
@@ -49,17 +50,6 @@ const MediumImg = () => {
 
 const items = [
   {
-    title: 'Blogging Webapp',
-    description: 'medium like blogging app in serverless fashion.',
-    header: (
-      <Skeleton>
-        <MediumImg />
-      </Skeleton>
-    ),
-    className: 'md:col-span-2 bg-neutral-50',
-    link: '/projects/bloggingapp',
-  },
-  {
     title: 'Payment Application',
     description:
       'wallet app that lets users onramp money via a fake bank account.',
@@ -70,6 +60,17 @@ const items = [
     ),
     className: 'md:col-span-2 bg-neutral-50',
     link: '/projects/paymentapp',
+  },
+  {
+    title: 'Blogging Webapp',
+    description: 'medium like blogging app in serverless fashion.',
+    header: (
+      <Skeleton>
+        <MediumImg />
+      </Skeleton>
+    ),
+    className: 'md:col-span-2 bg-neutral-50',
+    link: '/projects/bloggingapp',
   },
 ]
 

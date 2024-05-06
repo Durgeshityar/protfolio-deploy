@@ -45,7 +45,7 @@ export default function Page() {
             />
           </Fog>
         </div>
-        <div className="flex flex-col gap-4 text-sm  font-thin ">
+        <div className="flex flex-col gap-4 text-sm  md:font-thin ">
           <p className="font-medium text-slate-500"> INFO</p>
           <p>
             I'm full stack developer living in Raipur,Chhattisgarh, India. My
@@ -56,13 +56,7 @@ export default function Page() {
             technology to create impactful experiences transcended the physical
             realm.
           </p>
-          <p>
-            The ability to design and build web applications, explore the
-            innovative world of Web3, and contribute to the ever-evolving
-            technological(open source) landscape sparked a fervent passion
-            within me. Full-stack development particularly resonates with my
-            skillset.
-          </p>
+
           <p>
             Creating intuitive and user-centric experiences that simplify lives
             and push boundaries is what truly excites me. I believe my
@@ -103,7 +97,7 @@ export default function Page() {
       <hr className="m-4" />
       <p className="font-medium  text-slate-500 text-sm pb-9">CODING MINDSET</p>
       <div className="md:flex md:justify-between md:items-center md:gap-2">
-        <div className="flex flex-col gap-1 text-sm font-thin">
+        <div className="flex flex-col gap-1 text-sm md:font-thin">
           <p className="font-semibold"> Great Taste </p>
           <p>
             Steve Jobs once said, "Simplicity is the ultimate sophistication." I
@@ -114,7 +108,7 @@ export default function Page() {
             the beauty of well-structured, well-thought-out code.
           </p>
         </div>
-        <div className="flex flex-col gap-1 text-sm font-thin pt-5 md:pt-0">
+        <div className="flex flex-col gap-1 text-sm md:font-thin pt-5 md:pt-0">
           <p className=" font-semibold"> Future Of Technology </p>
           <p>
             While some might see technology as a separate force, it's actually
