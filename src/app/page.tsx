@@ -92,7 +92,7 @@ const CARDS = [
     designation: 'Backend expertise',
     content: (
       <p>
-        I architect scalable and<Highlight>secure backend system</Highlight> s
+        I architect scalable and<Highlight>secure backend system</Highlight>
         using a variety of technologies, ensuring data integrity and efficient
         performance.{' '}
       </p>
