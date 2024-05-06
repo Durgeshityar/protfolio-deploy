@@ -39,8 +39,8 @@ const page = () => {
         </h1>
       </div>
       <div className="flex w-full text-center justify-center my-5 py-8 px-1">
-        <h1 className="text-4xl font-semibold text-black dark:text-white flex items-center gap-2">
-          Preferred Framework
+        <h1 className="text-4xl font-semibold text-black dark:text-white ">
+          Preferred Framework <br />
           <span className="text-6xl font-bold mt-1 leading-none">
             <ChangingText />
           </span>
