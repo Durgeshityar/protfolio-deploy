@@ -48,6 +48,14 @@ const MediumImg = () => {
   )
 }
 
+const ChessImg = () => {
+  return (
+    <div className=" rounded-md">
+      <Image src={'/chess/chess.png'} alt="logo" height={150} width={150} />
+    </div>
+  )
+}
+
 const items = [
   {
     title: 'Payment Application',
@@ -71,6 +79,17 @@ const items = [
     ),
     className: 'md:col-span-2 bg-neutral-50',
     link: '/projects/bloggingapp',
+  },
+  {
+    title: 'Chess playing website',
+    description: 'Clone of chess.com integrated with websocket and pub-subs.',
+    header: (
+      <Skeleton>
+        <ChessImg />
+      </Skeleton>
+    ),
+    className: 'md:col-span-2 bg-neutral-50',
+    link: '/projects/chessapp',
   },
 ]
 

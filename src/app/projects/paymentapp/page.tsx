@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div className="mt-28 ml-5 mr-5  lg:mt-10 lg:ml-96 h-full  flex flex-col justify-between w-full overflow-hidden">
       <div className="flex flex-col">
-        <p className="text-5xl font-semibold pb-5">Payment Application</p>
+        <p className="text-5xl font-semibold pb-5">Payment Application 💳</p>
         <p className="text-2xl font-semibold text-slate-400 pb-5">
           Fullstack App end to end in turborepo with webhook handler
         </p>
